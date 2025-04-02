@@ -4,14 +4,14 @@ session_start();
 
 // Redirect to CreateAccount if not coming from coach registration
 if (!isset($_SESSION['is_coach']) || !$_SESSION['is_coach']) {
-    header("Location: CreateAccount.php");
+    header("Location: create_account.php");
     exit();
 }
 
 // Process form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Redirect to login after submission
-    header("Location: Login.php");
+    header("Location: login.php");
     exit();
 }
 ?>
@@ -120,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <h1>Coach Information</h1>
         <p>Please provide your game details to complete your coach registration.</p>
         
-        <form action="CoachCreation.php" method="post">
+        <form action="coac_creation.php" method="post">
             <div class="form-group">
                 <label for="game_id">Marvel Rivals Game ID</label>
                 <input type="text" id="game_id" name="game_id" required>

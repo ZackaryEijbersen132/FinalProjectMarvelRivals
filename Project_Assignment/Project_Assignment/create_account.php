@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['is_coach'] = true;
                 $_SESSION['new_user'] = $username; // Store username in session if needed
                 header("Location: login.php");
-                //header("Location: CoachCreation.php"); // Skipping for now as we are only dealing with one game
+                //header("Location: coach_creation.php"); // Skipping for now as we are only dealing with one game
             } else {
                 header("Location: login.php");
             }
@@ -183,7 +183,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="error"><?php echo htmlspecialchars($errors['database']); ?></div>
         <?php endif; ?>
         
-        <form action="CreateAccount.php" method="post" enctype="multipart/form-data">
+        <form action="create_account.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" 

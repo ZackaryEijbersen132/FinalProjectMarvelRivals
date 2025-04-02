@@ -221,6 +221,15 @@ function showUserSessions() {
             <button type="submit" id="logout" name="logout">Logout</button>
 	    </form>
 
+        <?php if ($user['bio']): ?>
+        <div class="bio-section">
+            <h2>About Me</h2>
+            <div class="bio-content">
+                <?php echo nl2br(htmlspecialchars($user['bio'])); ?>
+            </div>
+        </div>
+        <?php endif; ?>
+
         <br><h2>Notifications</h2>
         <table>
         <tr>
@@ -232,15 +241,6 @@ function showUserSessions() {
             showUserSessions();
         ?>
         </table>
-
-        <?php if ($user['bio']): ?>
-        <div class="bio-section">
-            <h2>About Me</h2>
-            <div class="bio-content">
-                <?php echo nl2br(htmlspecialchars($user['bio'])); ?>
-            </div>
-        </div>
-        <?php endif; ?>
     </div>
 </body>
 </html>

@@ -10,7 +10,7 @@ include 'config.php';
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-image: url('mainPage.jpg');
+            background-image: url('https://www.sportskeeda.com/esports/marvel-rivals-map-tier-list');
         }
         h1 {
             margin-left: auto;
@@ -22,6 +22,9 @@ include 'config.php';
         h2 {
             color: black;
             text-align: center;
+        }
+        p {
+            color: black;
         }
     </style>
 </head>
@@ -51,7 +54,7 @@ include 'config.php';
     <h1>Heroes</h1>
     <h2>Vanguards (Tank)</h2>
 
-Hulk (Bruce Banner)</br>
+<p>Hulk (Bruce Banner)</br>
 Range: Close</br></br>
 
 Mobility Perks: Leap attack, ground slam</br></br>
@@ -184,10 +187,10 @@ Devour – Steals health from enemies</br></br>
 
 Berserk Mode – Enhances damage output</br></br>
 
-Quick Tip: Use Devour mid-fight to regain health and stay in combat longer.</br></br>
+Quick Tip: Use Devour mid-fight to regain health and stay in combat longer.</br></p>
 
 <h2>Duelists (Damage)</h2>
-Black Panther</br>
+<p>Black Panther</br>
 Range: Close</br></br>
 
 Mobility Perks: Wall climb, dash attacks</br></br>
@@ -275,10 +278,10 @@ Regeneration – Heals over time</br></br>
 
 Savage Leap – Jumps onto enemies</br></br>
 
-Quick Tip: Regeneration allows you to be aggressive—don’t be afraid to engage first.</br></br>
+Quick Tip: Regeneration allows you to be aggressive—don’t be afraid to engage first.</br></p>
 
 <h2>Strategists (Support)</h2>
-Adam Warlock</br>
+<p>Adam Warlock</br>
 Range: Medium</br></br>
 
 Mobility Perks: Levitation, teleportation</br></br>
@@ -321,7 +324,7 @@ Grenade Launcher – AOE explosive attack</br></br>
 
 Turret Deployment – Places auto-turrets</br></br>
 
-Quick Tip: Place Turret Deployment near choke points for constant pressure.</br></br>
+Quick Tip: Place Turret Deployment near choke points for constant pressure.</br></p>
 
 
 
